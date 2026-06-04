@@ -1,11 +1,11 @@
-static const char *const g_fr_ca[SM_L10N_COUNT] = {
+static const char *const g_fr_fr[SM_L10N_COUNT] = {
     /* English: Go to Debug Settings */
     [SM_L10N_ACTION_DEBUG_SETTINGS] = "Aller aux paramètres de débogage",
     /* English: ShadowMount+ v%s exFAT/UFS/PFS */
     [SM_L10N_STARTUP] = "ShadowMount+ v%s exFAT/UFS/PFS",
     /* English: ShadowMount+: recursive_scan=1 is deprecated, using scan_depth=2. */
     [SM_L10N_RECURSIVE_SCAN_DEPRECATED] =
-        "ShadowMount+ : recursive_scan=1 est désuet, scan_depth=2 sera utilisé.",
+        "ShadowMount+ : recursive_scan=1 est obsolète, scan_depth=2 sera utilisé.",
     /* English: ShadowMount+: scan depth %u enabled. */
     [SM_L10N_SCAN_DEPTH_ENABLED] = "ShadowMount+ : profondeur de scan %u activée.",
     /* English: Backport overlay failed: %s\n%s\n0x%08X */
@@ -32,7 +32,7 @@ static const char *const g_fr_ca[SM_L10N_COUNT] = {
     /* English: KStuff active again */
     [SM_L10N_KSTUFF_ACTIVE] = "KStuff est de nouveau actif",
     /* English: KStuff paused while the game is running */
-    [SM_L10N_KSTUFF_PAUSED] = "KStuff est en pause pendant que le jeu roule",
+    [SM_L10N_KSTUFF_PAUSED] = "KStuff est en pause pendant l'exécution du jeu",
     /* English: Installed: %s */
     [SM_L10N_INSTALLED] = "Installé : %s",
     /* English: Image mount failed: 0x%08X (%s)\n%s */
